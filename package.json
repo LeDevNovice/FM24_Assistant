@@ -2,6 +2,7 @@
   "name": "fm24_assistant",
   "version": "0.0.1",
   "description": "An assistant to help player to determine the best choices to make in Football Manager 2024",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
