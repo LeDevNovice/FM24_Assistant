@@ -1,11 +1,14 @@
 {
   "name": "fm24_assistant",
   "version": "0.0.1",
-  "description": "An assistant to help player to determine the best choices to make in Football Manager 2024",
+  "description": "An assistant to help players to determine the best choices to make in Football Manager 2024.",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\""
   },
   "author": "LeDevNovice",
   "license": "ISC",
